@@ -14,7 +14,7 @@ import PrivateRouting from "./components/routing/PrivateRouting";
 // import weather2 from "./weather/weather2";
 import property from "./properties/property";
 import ContactUs from "./components/layout/ContactUs";
-import Suggestion from "./properties/suggestion";
+
 const App = () => {
   return (
     <div className="App">
@@ -29,7 +29,7 @@ const App = () => {
                   <Route exact path="/login" component={Login}></Route>
                   <Route exact path="/register" component={Register}></Route>
                   <Route exact path="/about" component={About}></Route>
-                  <Route exact path="/suggestion" component={Suggestion}></Route>
+                  
                   <PrivateRouting
                     exact
                     path="/map"
