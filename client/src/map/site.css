@@ -1,0 +1,36 @@
+.my_app {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+}
+.card {
+    z-index: 1
+}
+.searchBar {
+    position: relative;
+    
+    z-index: 1;
+}
+.coordinates {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+}
+.setcoordbtn {
+    position: relative;
+    z-index:1;
+}
+.mainWrapper {
+    z-index:1;
+    height: 100vh;
+}
